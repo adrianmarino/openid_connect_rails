@@ -1,0 +1,41 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  # model base
+  provider:
+    basic_info: Basic Client Profile
+    protocol_endpoints: Protocol Endpoints
+    identifier: Client ID
+    scope: Scope
+    authorization_endpoint: Authorization Endpoint
+    token_endpoint: Token Endpoint
+    userinfo_endpoint: UserInfo Endpoint
+    placeholder:
+      name: for display purpose
+      identifier: client_id
+      secret: client_secret
+      scope: space separated scopes
+  open_id:
+    access_token:
+      title: Access Token
+    userinfo:
+      title: UserInfo
+      errors: Errors
+    id_token:
+      title: ID Token
+  # controller base
+  site:
+    title: Nov's RP
+    description: Connect Now!
+  top:
+    title: Let me try to work with your OP :)
+    description: You can use this app as a sample RP for your OP or sample code for your RP.
+  accounts:
+    title: Hello, %{name}
+  open_ids:
+    create:
+      title: Login with %{provider}
+  providers:
+    create:
+      title: Discover

@@ -1,0 +1,41 @@
+.providers label {
+  clear: both;
+  float: left;
+  margin: 0 15px;
+  width: 100px;
+}
+.providers input[type=text],
+.providers input[type=url] {
+  float: left;
+  width: 300px;
+}
+.providers nav input[type=text] {
+  margin: 7px 5px;
+  width: 200px;
+}
+.providers fieldset {
+  margin-bottom: 15px;
+}
+.providers fieldset legend {
+  margin-bottom: 5px;
+}
+.providers .protocol_endpoints input {
+  width: 400px;
+}
+.providers article {
+  position: relative;
+  padding: 15px;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.providers article h3 span {
+  font-weight: normal;
+  font-size: .8em;
+}
+.providers article nav {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
